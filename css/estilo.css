@@ -1,0 +1,164 @@
+body {
+  background-color: #F0F2F5;
+  margin: 0;
+  padding: 0;
+}
+
+a, a:link, a:active, a:visited, a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.conteudo .principal {
+  width: 1050px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.conteudo .principal .bem_vindo {
+  width: 500px;
+}
+.conteudo .principal .bem_vindo .logo {
+  position: relative;
+  left: -27px;
+}
+.conteudo .principal .bem_vindo .texto {
+  margin-top: -15px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  text-align: left;
+}
+.conteudo .principal .container_acao .login {
+  width: 480px;
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 5px 0px;
+  display: flex;
+  justify-items: center;
+  align-content: center;
+}
+.conteudo .principal .container_acao .login form {
+  width: 450px;
+  padding: 0;
+  margin: 13px;
+}
+.conteudo .principal .container_acao .login input {
+  background-color: white;
+  height: 53px;
+  width: 100%;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 5px 0px;
+  margin: 8px 0px;
+  border-radius: 7px;
+  box-sizing: border-box;
+  padding-left: 7px;
+  padding-right: 7px;
+  outline: none;
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 17px;
+}
+.conteudo .principal .container_acao .login input:focus {
+  box-shadow: inset 0px 0px 0px 1px #1877F2, 0px 0px 0px 2px #1876f220;
+  color: #1877F2;
+}
+.conteudo .principal .container_acao .login .logar {
+  background: #1877F2;
+  width: 100%;
+  height: 53px;
+  color: white;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  margin: 4px 0px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+.conteudo .principal .container_acao .login .esqueceu_senha {
+  color: #1877F2;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 0px;
+}
+.conteudo .principal .container_acao .login .esqueceu_senha:hover {
+  text-decoration: underline;
+}
+.conteudo .principal .container_acao .login .criar_conta {
+  background: #42B72A;
+  height: 53px;
+  color: white;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  margin: 8px 0px;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0px 20px;
+  cursor: pointer;
+}
+.conteudo .principal .container_acao .pagina {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  padding: 15px 0px;
+}
+.conteudo .principal .container_acao .pagina a {
+  font-weight: bold;
+}
+.conteudo .principal .container_acao .pagina a:hover {
+  text-decoration: underline;
+}
+
+.rodape {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20vh;
+}
+.rodape_conteudo {
+  width: 985px;
+  position: relative;
+  top: 0;
+}
+.rodape_conteudo_lista {
+  width: 100vh;
+  color: rgba(0, 0, 0, 0.5);
+}
+.rodape_conteudo_lista ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 11px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.rodape_conteudo_lista ul li {
+  color: #8a8d91;
+  width: auto;
+  float: left;
+  padding: 5px 10px;
+}
+.rodape_conteudo_lista ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.rodape_conteudo_lista button {
+  height: 20px;
+  cursor: pointer;
+  margin-left: 3px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
